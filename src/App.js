@@ -5,14 +5,17 @@ import './App.css';
 function App() {
   const news = [
     {
+      key : 1,
       title: "title 1 ",
       description: "description 1",
     },
     {
+      key : 2,
       title: "title 2 ",
       description: "description 2",
     },
     {
+      key : 3,
       title: "title 3 ",
       description: "description 3",
     },
