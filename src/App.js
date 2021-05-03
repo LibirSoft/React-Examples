@@ -3,6 +3,20 @@ import News from './components/News'
 import './App.css';
 
 function App() {
+  const news = [
+    {
+      title: "title 1 ",
+      description: "description 1",
+    },
+    {
+      title: "title 2 ",
+      description: "description 2",
+    },
+    {
+      title: "title 3 ",
+      description: "description 3",
+    },
+  ];
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +32,7 @@ function App() {
         >
           Learn React
         </a>
-        <News></News>
+        <News news={news} />
       </header>
     </div>
   );
