@@ -7,16 +7,18 @@ export default class Counter extends Component {
 
     }
     decrease = () => {
+      var  state_number = this.state.number
         this.setState({
 
-            number: --this.state.number
+            number: --state_number
         })
     }
 
     increase = () => {
+      var  state_number = this.state.number
         this.setState({
 
-            number: ++this.state.number
+            number: ++state_number
         })
     }
     render() {
